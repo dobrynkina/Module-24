@@ -22,7 +22,7 @@ class Toyota:
 
     def info(self):
         print("цвет: {}\nстоимость: {}\nмаксимальная скорость: {}\nтекущая скорость: {}".format(
-            self.color, self.current_speed, self.max_speed, self.current_speed))
+            self.color, self.coast, self.max_speed, self.current_speed))
 
     def new_speed(self, new_speed):
         self.current_speed = new_speed
